@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Alex Mercer</title>
+  <meta name="description" content="Browse Alex Mercer's portfolio of product design and frontend development work across SaaS, mobile, and brand projects." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://alexmercer.dev/pages/projects.html" />
+  <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="../assets/css/projects.css" />
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__logo">
+        <span class="nav__logo-mark">AM</span>
+        <span class="nav__logo-text">Alex Mercer</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="../index.html" class="nav__link">Home</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="projects.html" class="nav__link nav__link--active">Projects</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn--primary btn--sm nav__cta">Let's Talk</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="page-hero__bg"></div>
+    <div class="container">
+      <div class="page-hero__label reveal">Portfolio</div>
+      <h1 class="reveal reveal--delay-1">Work I'm<br/>proud of.</h1>
+      <p class="reveal reveal--delay-2">A selection of projects spanning product design, development, and brand identity.</p>
+    </div>
+  </section>
+
+  <!-- Filter -->
+  <section class="projects section">
+    <div class="container">
+      <div class="filter reveal">
+        <button class="filter__btn filter__btn--active" data-filter="all">All Work</button>
+        <button class="filter__btn" data-filter="product">Product Design</button>
+        <button class="filter__btn" data-filter="dev">Development</button>
+        <button class="filter__btn" data-filter="brand">Branding</button>
+      </div>
+
+      <div class="projects__grid" id="projectsGrid">
+
+        <article class="project-card reveal" data-category="product">
+          <div class="project-card__img">
+            <div class="project-card__bg" style="background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);"></div>
+            <div class="project-card__number">01</div>
+            <div class="project-card__overlay">
+              <span>View Case Study →</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="tag">SaaS</span>
+              <span class="tag">Product Design</span>
+              <span class="tag">Design System</span>
+            </div>
+            <h3>Orbit Analytics Dashboard</h3>
+            <p>End-to-end redesign of a B2B analytics platform. Improved task completion by 38% and reduced onboarding time from 14 days to 3.</p>
+            <div class="project-card__stats">
+              <div class="project-stat">
+                <strong>+38%</strong>
+                <span>Task Completion</span>
+              </div>
+              <div class="project-stat">
+                <strong>50k+</strong>
+                <span>Users</span>
+              </div>
+              <div class="project-stat">
+                <strong>6mo</strong>
+                <span>Duration</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal--delay-1" data-category="dev">
+          <div class="project-card__img">
+            <div class="project-card__bg" style="background: linear-gradient(135deg, #0d1b2a, #1b4332, #2d6a4f);"></div>
+            <div class="project-card__number">02</div>
+            <div class="project-card__overlay">
+              <span>View Case Study →</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="tag">Mobile</span>
+              <span class="tag">iOS</span>
+              <span class="tag">React Native</span>
+            </div>
+            <h3>Folio Finance App</h3>
+            <p>Personal finance app with AI-powered insights, smart categorization, and a frictionless onboarding flow with 4.8★ App Store rating.</p>
+            <div class="project-card__stats">
+              <div class="project-stat">
+                <strong>4.8★</strong>
+                <span>App Store</span>
+              </div>
+              <div class="project-stat">
+                <strong>120k</strong>
+                <span>Downloads</span>
+              </div>
+              <div class="project-stat">
+                <strong>3mo</strong>
+                <span>Duration</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal--delay-2" data-category="brand">
+          <div class="project-card__img">
+            <div class="project-card__bg" style="background: linear-gradient(135deg, #1a0533, #3d1155, #6d3887);"></div>
+            <div class="project-card__number">03</div>
+            <div class="project-card__overlay">
+              <span>View Case Study →</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="tag">Branding</span>
+              <span class="tag">Web Design</span>
+              <span class="tag">Motion</span>
+            </div>
+            <h3>Nova Brand Identity</h3>
+            <p>Full visual identity and marketing site for a Series A climate-tech startup. Raised $8M within 3 months of launch.</p>
+            <div class="project-card__stats">
+              <div class="project-stat">
+                <strong>$8M</strong>
+                <span>Series A Raised</span>
+              </div>
+              <div class="project-stat">
+                <strong>+180%</strong>
+                <span>Conversion Rate</span>
+              </div>
+              <div class="project-stat">
+                <strong>4mo</strong>
+                <span>Duration</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="product">
+          <div class="project-card__img">
+            <div class="project-card__bg" style="background: linear-gradient(135deg, #0a1628, #1c3a5e, #2563a8);"></div>
+            <div class="project-card__number">04</div>
+            <div class="project-card__overlay">
+              <span>View Case Study →</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="tag">HealthTech</span>
+              <span class="tag">Product Design</span>
+            </div>
+            <h3>MedSync Patient Portal</h3>
+            <p>HIPAA-compliant patient portal redesign for a regional hospital network. Appointment scheduling time dropped by 65%.</p>
+            <div class="project-card__stats">
+              <div class="project-stat">
+                <strong>-65%</strong>
+                <span>Scheduling Time</span>
+              </div>
+              <div class="project-stat">
+                <strong>200k</strong>
+                <span>Patients</span>
+              </div>
+              <div class="project-stat">
+                <strong>8mo</strong>
+                <span>Duration</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal--delay-1" data-category="dev">
+          <div class="project-card__img">
+            <div class="project-card__bg" style="background: linear-gradient(135deg, #1a1200, #3d2e00, #7a5c00);"></div>
+            <div class="project-card__number">05</div>
+            <div class="project-card__overlay">
+              <span>View Case Study →</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="tag">E-commerce</span>
+              <span class="tag">Next.js</span>
+              <span class="tag">Headless CMS</span>
+            </div>
+            <h3>Artisan Commerce Platform</h3>
+            <p>Custom e-commerce experience for a luxury goods brand. 98/100 Lighthouse score, 0.8s load time, and 2.3× conversion improvement.</p>
+            <div class="project-card__stats">
+              <div class="project-stat">
+                <strong>98/100</strong>
+                <span>Lighthouse</span>
+              </div>
+              <div class="project-stat">
+                <strong>×2.3</strong>
+                <span>Conversions</span>
+              </div>
+              <div class="project-stat">
+                <strong>0.8s</strong>
+                <span>Load Time</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal--delay-2" data-category="brand">
+          <div class="project-card__img">
+            <div class="project-card__bg" style="background: linear-gradient(135deg, #001a1a, #003333, #006060);"></div>
+            <div class="project-card__number">06</div>
+            <div class="project-card__overlay">
+              <span>View Case Study →</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="tag">Branding</span>
+              <span class="tag">Print</span>
+              <span class="tag">Identity</span>
+            </div>
+            <h3>Meridian Advisory Group</h3>
+            <p>Complete rebrand for a boutique investment firm — logo, typography, color system, stationery, pitch deck templates, and brand guidelines.</p>
+            <div class="project-card__stats">
+              <div class="project-stat">
+                <strong>Full</strong>
+                <span>Brand System</span>
+              </div>
+              <div class="project-stat">
+                <strong>12</strong>
+                <span>Deliverables</span>
+              </div>
+              <div class="project-stat">
+                <strong>2mo</strong>
+                <span>Duration</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta section">
+    <div class="container">
+      <div class="cta__card reveal">
+        <div class="cta__bg"></div>
+        <div class="cta__content">
+          <span class="section__label">Next Project</span>
+          <h2>Could be yours.</h2>
+          <p>I'm selectively taking on new projects. Let's talk about what you're building.</p>
+          <a href="contact.html" class="btn btn--primary btn--lg">Start a Conversation →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="../index.html" class="nav__logo">
+          <span class="nav__logo-mark">AM</span>
+          <span class="nav__logo-text">Alex Mercer</span>
+        </a>
+        <p>Crafting digital experiences<br/>that make a difference.</p>
+      </div>
+      <div class="footer__nav">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__social">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Twitter / X</a></li>
+          <li><a href="#">Dribbble</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© 2025 Alex Mercer. All rights reserved.</p>
+      <p>Designed & built with care.</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/projects.js"></script>
+</body>
+</html>
